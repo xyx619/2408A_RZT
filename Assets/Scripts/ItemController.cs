@@ -83,6 +83,7 @@ public class ItemManager : MonoBehaviour
     private void Exchange(SingleItem item1, SingleItem item2)
     {
         Debug.Log("010000");
+        Debug.Log("123123");
         // 更新元素在数组中的位置  
         itemList[item1.row, item1.col] = item2;
         itemList[item2.row, item2.col] = item1;
