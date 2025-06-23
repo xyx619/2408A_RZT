@@ -33,6 +33,7 @@ public class SingleItem : MonoBehaviour
     // 初始化单元格
     public void BirthItem(int row, int col)
     {
+        Debug.Log("我是任泽同");
        
         SetItemIndex(row, col); // 设置单元格的行列索引
         
